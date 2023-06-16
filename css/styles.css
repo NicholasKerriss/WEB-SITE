@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #f2ebce, #c7bf9a);
+}
+
+.navbar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.navbar .logo {
+  margin: 25px 15px;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+}
+
+.menu {
+  display: flex;
+  margin: 25px 15px;
+
+  font-size: 24px;
+  gap: 10px;
+}
+
+.menu .navbar-btn {
+  cursor: pointer;
+  border-radius: 16px;
+  padding: 5px 15px;
+  background: white;
+  transition: 0.3s;
+}
+
+.menu .navbar-btn:hover {
+  background: black;
+  color: white;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.container h1 {
+  font-family: "PT Sans", sans-serif;
+  margin-top: 80px;
+}
+
+.offers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.offers .prices {
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+  padding: 20px;
+  background: #f3f3f3;
+  flex-grow: 1;
+}
+
+/* .offers .prices #edit-3 {
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 5%;
+  padding: 20px;
+} */
+
+.offers .prices .value {
+  font-weight: bold;
+  font-size: 34px;
+  border-bottom: 1px solid #8c8c8c;
+  padding-bottom: 40px;
+  font-family: "Abel", sans-serif;
+}
+
+.offer .prices .icons {
+  font-family: "Abel", sans-serif;
+}
+
+.button-btn {
+  cursor: pointer;
+  border-radius: 16px;
+  padding: 5px 86px;
+  transition: 0.2s;
+  background: black;
+  color: white;
+}
+
+.button-btn:hover {
+  transform: scaleX(1.2);
+  transform: scaleY(1.2);
+}
+
+.foot {
+  margin-top: 60px;
+  font-family: "PT Sans", sans-serif;
+  margin-left: 60px;
+}
+
+.foot h4 {
+  font-size: 34px;
+}
+
+.foot p {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+img {
+  height: 20px;
+  width: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  padding: 6px;
+  background: #eaeaea;
+  color: #8c8c8c;
+  font-size: 14px;
+  font-family: "Abel", sans-serif;
+}
